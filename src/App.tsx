@@ -138,7 +138,6 @@ export default class App extends React.Component<object, State> {
     if (!this._currentUrl) {
       if (!Files.get(Files.entry())) {
         // Else show the barcode scanner
-        // eslint-disable-next-line react/no-did-mount-set-state
         this.setState(() => ({
           showSplash: false,
           showBarCodeScanner: true,
@@ -146,7 +145,6 @@ export default class App extends React.Component<object, State> {
         }));
       }
     } else {
-      // eslint-disable-next-line react/no-did-mount-set-state
       this.setState(() => ({ showSplash: false }));
     }
 

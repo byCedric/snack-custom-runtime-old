@@ -25,7 +25,8 @@ export default function UpdateIndicator(props: Props) {
           styles.notification,
           isVisible && styles.notificationVisible,
           initial && styles.notificationInitial,
-        ]}>
+        ]}
+      >
         <Text style={styles.notificationText}>{label}</Text>
       </View>
     </View>

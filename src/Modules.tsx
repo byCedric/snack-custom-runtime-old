@@ -165,7 +165,6 @@ const fetchPipeline = async (load: Load) => {
               });
 
               if (response.headers?.hasOwnProperty('map')) {
-                // @ts-expect-error: expression of type '"map"' can't be used to index type 'Headers'
                 const mapHeaders = response.headers['map'];
                 if (mapHeaders) {
                   metaData = {

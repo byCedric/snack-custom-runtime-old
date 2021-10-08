@@ -10,7 +10,7 @@
     "start": "expo start",
     "web": "expo start --web",
     "postinstall": "patch-package",
-    "lint": "eslint src types --ext '.js,.ts,.tsx'",
+    "lint": "eslint src types --ext js,ts,tsx",
     "typescript": "tsc",
     "test": "jest",
     "deploy:staging": "EXPO_STAGING=1 expo publish --clear",

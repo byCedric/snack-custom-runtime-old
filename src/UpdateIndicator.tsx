@@ -66,7 +66,8 @@ export default class UpdateIndicator extends React.PureComponent<Props, State> {
                 },
               ],
             },
-          ]}>
+          ]}
+        >
           <Text style={styles.notificationText}>{label}</Text>
         </Animated.View>
       </SafeAreaView>
