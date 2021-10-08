@@ -4,9 +4,10 @@ import Constants from 'expo-constants';
 
 import Amplitude from './NativeModules/Amplitude';
 
-const AMPLITUDE_KEY = '3b373bbc96d76a58d5efe2b73118a96e';
+// TODO(cedric): Add right amplitude key to the clients
+// const AMPLITUDE_KEY = '<TODO>';
 
-Amplitude.initializeAsync(AMPLITUDE_KEY);
+// Amplitude.initializeAsync(AMPLITUDE_KEY);
 
 let loggedReceivedFirstCode = false;
 
