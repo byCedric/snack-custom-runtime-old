@@ -1,3 +1,8 @@
+# Edit if needed
+/android
+/ios
+/react-native.config.js
+
 # Expo
 .expo
 __generated__
